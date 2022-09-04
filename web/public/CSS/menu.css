@@ -1,0 +1,69 @@
+#main-nav a {
+  color: var(--white-color);
+  background-color: #cc0000;
+  display: block;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  height: 34px;
+  justify-content: center;
+  text-decoration: none;
+  transition: background 0.4s;
+  font-size: 1.7rem;
+  
+}
+
+#main-nav a:hover {
+  background-color: #9d0202;
+}
+
+#main-nav ul {
+  list-style: none;
+  display: flex;
+}
+
+#main-nav li {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+#main-nav li:hover .submenu > li {
+  display: block;
+  top: 0px;
+}
+
+.submenu li {
+  display: none;
+  position: absolute;
+  top: 0px;
+}
+
+.submenu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+}
+
+.submenu li {
+  position: relative;
+  z-index: 1;
+}
+
+.submenu li:hover .submenu-2 li {
+  display: block;
+}
+
+.submenu-2 li {
+  display: none;
+}
+
+.submenu-2 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0px;
+  left: 100%;
+  width: 120px;
+}

@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto',sans-serif;
+    box-sizing: border-box;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+body {
+    min-height: 100vh;
+    background:#929599;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 700px;
+    height: 500px;
+   
+    display: flex;
+    justify-content: center;
+}
+
+.thumb {
+    width: 300px;
+    height: 400px;
+    
+    transition: 0.8s all;
+    background-color: var(--white-color);
+}
+.thumb img{
+    width: 300px;
+    height: auto;
+}
+.quantity {
+    margin-left: 46px;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+.desc {
+    width: 300px;
+    height: 400px;
+    background: #d9d4cf;
+    transition: 0.8s all;
+    padding-top: 14px;
+    
+}
+
+.desc h3 {
+    color: red;
+    text-align: center;
+    font-size: 16px;
+}
+
+.desc .name, .desc .color {
+    font-weight: bold;
+    color: red;
+    font-size: 20px;
+    margin-top: 47px;
+    margin-left: 46px;
+}
+
+.desc p {
+    margin-left: 46px;
+    width: 206px;
+    font-size: 14px;
+    margin-top: 6px;
+    color: #1371ff;
+    
+}
+
+.list-color {
+    display: flex;
+    margin-left: 46px;
+    gap: 15px;
+    margin-top: 23px;
+}
+
+.list-color .item1 {
+    width: 28px;
+    height: 28px;
+    background: red;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.list-color .item2 {
+    width: 28px;
+    height: 28px;
+    background: #2001ce;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.list-color .item3 {
+    width: 28px;
+    height: 28px;
+    background: #4a4344;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.other-info {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.price {
+    margin: 0 30px 0 12px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
